@@ -85,17 +85,17 @@ thread.append(t)
     def Header(self, user, password, sess):
         headers = {
             'Host': 'www.instagram.com',
-            'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36',
             'Accept': '*/*',
-            'Accept-Language': 'en-US,en;q=0.5',
+            'Accept-Language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7',
             'Accept-Encoding': 'gzip, deflate, br',
-            'Referer': 'https://www.instagram.com/',
-            'X-CSRFToken': '',
+            'Referer': 'https://www.instagram.com/yookihhh/',
+            'X-CSRFToken': 'o0xOrVSEyzcO4baVHLaVhzciR41jxEqc',
             'X-Instagram-AJAX': '1',
             'Content-Type': 'application/x-www-form-urlencoded',
             'X-Requested-With': 'XMLHttpRequest',
-            'Content-Length': '',
-            'Cookie': '',
+            'Content-Length': '1097',
+            'Cookie': 'ig_nrcb=1; mid=YjVX9gALAAFT_XM5ktORHb9IaoPd; ig_did=481B50E8-CAB1-429C-9D04-0D8CAD9B3D40; shbid="8408\05414799966765\0541679199170:01f7101d9c4f2501dff9b068459ca42fee989541d369c09fb3bcc92c9b9e0a8b1400d1aa"; shbts="1647663170\05414799966765\0541679199170:01f70c9d75dfe16c35eb14e072a213f6954b5cfad9b3b5ed42b5ed09e4fe4351dcefd76a"; rur="EAG\05414799966765\0541679215424:01f7922c9a8d3309e3092a88190cca7d7b9d106b9d9a1ce2a7aa23b640fbf1277882a21c"; csrftoken=o0xOrVSEyzcO4baVHLaVhzciR41jxEqc',
             'Connection': 'keep-alive'
         }
         datas = {'username': user, 'password': password}
